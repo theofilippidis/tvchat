@@ -27,6 +27,20 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<div align=center>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-0132583951198869";
+/* TVchat.gr */
+google_ad_slot = "9051360238";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
 <?php
 include 'greeklish.php';
 
