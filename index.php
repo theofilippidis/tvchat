@@ -16,7 +16,7 @@ echo '<frame name="chat" src="chat.php?chat='. $_GET["chat"] .'" marginheight="0
 </frameset>
 
 <noframes>
-Συζήτηση σχετικά με το τι παρακολουθείτε στην τηλεόραση τώρα!
+<img src="retro-tv-icon.jpg"><p>Συζήτηση σχετικά με το τι παρακολουθείτε στην τηλεόραση τώρα!</p>
 </noframes>
 
 </frameset>
