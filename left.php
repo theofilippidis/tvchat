@@ -82,12 +82,11 @@ $ch_start = strrpos(substr($page,0,$ch_end),'>', $ti_end+1)+1;
 
 echo 
 date ('Ymd').'_'.
-greek_to_greeklish (
 substr($page, $ch_start, $ch_end - $ch_start)
 .'_'
 .str_replace(':','_',substr($page, $dt_start, $dt_end - $dt_start))
 .'_'
-.substr($page, $ti_start, $ti_end - $ti_start));
+.substr($page, $ti_start, $ti_end - $ti_start);
 
 ?>" target="_top">
 <?php
