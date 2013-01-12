@@ -3,6 +3,21 @@
 <meta charset="UTF-8">
 </head>
 <body>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2408143-12']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -17,7 +32,7 @@ include 'greeklish.php';
 
 echo '<p style="font-family:verdana;font-size:26px;">'.str_replace('-','</br>',$_GET["chat"]).'</p>';
 
-echo '<a href="https://apps.facebook.com/tvchatgr/index.php?chat='.$_GET["chat"].'"i target="_top"><img src="refresh.jpg"></a>';
+echo '<p align="right"><a href="https://apps.facebook.com/tvchatgr/index.php?chat='.$_GET["chat"].'"i target="_top"><img src="refresh.jpg"></a></p>';
 
 if (empty($_GET["chat"])) {
  echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/" data-width="560" data-num-posts="50"></div>';
