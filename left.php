@@ -1,7 +1,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="5" >
+<meta http-equiv="refresh" content="300" >
 </head>
 <body>
 <p align=center>
