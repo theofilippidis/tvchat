@@ -16,7 +16,7 @@ echo '<frame name="chat" src="chat.php?chat='. $_GET["chat"] .'" marginheight="0
 </frameset>
 
 <noframes>
-<p>This section (everything between the 'noframes' tags) will only be displayed if the users' browser doesn't support frames. You can provide a link to a non-frames version of the website here. Feel free to use HTML tags within this section.</p>
+Συζήτηση σχετικά με το τι παρακολουθείτε στην τηλεόραση τώρα!
 </noframes>
 
 </frameset>
