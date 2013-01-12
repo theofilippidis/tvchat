@@ -1,3 +1,8 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
 <?php
 include 'greeklish.php';
 
@@ -104,3 +109,5 @@ $offset = $offset +5;
 //echo  $page;
 
 ?>
+</body>
+</html>
