@@ -3,6 +3,10 @@
 <meta charset="UTF-8">
 </head>
 <body>
+<p align=center>
+<img src="on-ari.jpg">
+</p>
+
 <?php
 include 'greeklish.php';
 
