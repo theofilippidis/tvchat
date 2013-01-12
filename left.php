@@ -78,14 +78,14 @@ $ch_start = strrpos(substr($page,0,$ch_end),'>', $ti_end+1)+1;
 ?>
 
 <p style="font-family:verdana;font-size:13px;">
-<a href="https://apps.facebook.com/tvchatgr/ndex.php?chat=<?php
+<a href="https://apps.facebook.com/tvchatgr/index.php?chat=<?php
 
 echo 
-date ('Ymd').'_'.
+date ('Y/m/d').' '.
 substr($page, $ch_start, $ch_end - $ch_start)
-.'_'
-.str_replace(':','_',substr($page, $dt_start, $dt_end - $dt_start))
-.'_'
+.'@'
+.str_replace(':',':',substr($page, $dt_start, $dt_end - $dt_start))
+.' - '
 .substr($page, $ti_start, $ti_end - $ti_start);
 
 ?>" target="_top">
