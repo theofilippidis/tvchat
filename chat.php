@@ -1,10 +1,8 @@
 <html>
 <head>
-<title>TVchat</title>
+<meta charset="UTF-8">
 </head>
 <body>
- 
- 
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -26,5 +24,6 @@ if (empty($_GET["chat"])) {
 }
 ?>
 </body>
+</html>
 
 
