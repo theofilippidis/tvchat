@@ -4,7 +4,7 @@
 </head>
 <body>
 <p align=center>
-<img src="on-ari.jpg">
+<img src="on-air.jpeg">
 </p>
 
 <?php
