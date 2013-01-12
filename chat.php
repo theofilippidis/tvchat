@@ -15,7 +15,7 @@
 <?php
 include 'greeklish.php';
 
-echo '<p style="font-family:verdana;font-size:26px;">'.str_replace('@','<.br>',$_GET["chat"]).'</p>';
+echo '<p style="font-family:verdana;font-size:26px;">'.str_replace('-','</br>',$_GET["chat"]).'</p>';
 
 if (empty($_GET["chat"])) {
  echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/" data-width="560" data-num-posts="50"></div>';
