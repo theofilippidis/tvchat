@@ -15,7 +15,7 @@
 <?php
 include 'greeklish.php';
 
-echo $_GET["chat"];
+echo '<p style="font-family:verdana;font-size:26px;">'.$_GET["chat"].'</p>';
 
 if (empty($_GET["chat"])) {
  echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/" data-width="480" data-num-posts="50"></div>';
