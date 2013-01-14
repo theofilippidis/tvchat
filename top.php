@@ -31,11 +31,11 @@ session_start();
 
 setcookie('ACCESS_TOKEN',$params['access_token']);
 
- echo("<script> top.location.href='apex/f?p=111'</script>");
-   }
-   else {
-     echo("The state does not match. You may be a victim of CSRF.");
-   }
+ //echo("<script> top.location.href='apex/f?p=111'</script>");
+  // }
+   //else {
+   //  echo("The state does not match. You may be a victim of CSRF.");
+  // }
 
 ?>    
 </body>
