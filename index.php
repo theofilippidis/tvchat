@@ -1,23 +1,29 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 <html>
 <head>
 <title>TVchat.gr</title>
 </head>
+<body>    
+ <?php
+
+   $app_id = "441160562621946";
+  // $app_secret = "79b785ec4ed3530fb0cd9965fa9320e2";
+   $my_url = "http://TVchat.gr/chat.php";
+
+   session_start();
+
+ $code = $_REQUEST["code"];
+
+   if(empty($code)) {
+     $_SESSION['state'] = md5(uniqid(rand(), TRUE)); // CSRF protection
+     $dialog_url = "https://www.facebook.com/dialog/oauth?client_id="
+       . $app_id . "&redirect_uri=" . urlencode($my_url) . "&state="
+       . $_SESSION['state']. "&scope=email,user_likes,friends_likes";
+
+     echo("<script> top.location.href='" . $dialog_url . "'</script>");
+   }
 
 
-<frameset cols="200,*" frameborder="0" border="0" framespacing="0">
-	<frame name="left" src="left.php" marginheight="0" marginwidth="0" scrolling="auto" noresize>
-<frameset rows="150,*" frameborder="0" border="0" framespacing="0">
-  	<frame name="top" src="top.php">
-<?php
-echo '<frame name="chat" src="chat.php?chat='. $_GET["chat"] .'" marginheight="0" marginwidth="0" scrolling="auto" noresize>';
+ ?>
 ?>
-</frameset>
-
-<noframes>
-<img src="retro-tv-icon.jpg"><p>Συζήτηση σχετικά με το τι παρακολουθείτε στην τηλεόραση τώρα!</p>
-</noframes>
-
-</frameset>
+</body>
 </html>

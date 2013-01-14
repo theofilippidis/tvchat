@@ -9,7 +9,6 @@
 </p>
 
 <?php
-include 'greeklish.php';
 
 function strposnth($haystack, $needle, $nth=1, $insenstive=0)
 {
@@ -83,7 +82,7 @@ $ch_start = strrpos(substr($page,0,$ch_end),'>', $ti_end+1)+1;
 ?>
 
 <p style="font-family:verdana;font-size:13px;">
-<a href="https://apps.facebook.com/tvchatgr/index.php?chat=<?php
+<a href="https://apps.facebook.com/tvchatgr/chat.php?chat=<?php
 
 echo 
 date ('Y/m/d').' '.

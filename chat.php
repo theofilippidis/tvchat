@@ -1,66 +1,23 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 <html>
 <head>
-<meta charset="UTF-8">
+<title>TVchat.gr</title>
 </head>
-<body>
-    
-<!-- Google Analytics -->    
-    
-<script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-2408143-12']);
-  _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<!-- Facebook Comments -->
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=441160562621946";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Google Adesnse -->
-
-<div align=center>
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-0132583951198869";
-/* TVchat.gr */
-google_ad_slot = "9051360238";
-google_ad_width = 468;
-google_ad_height = 60;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
-</div>
-
+<frameset cols="200,*" frameborder="0" border="0" framespacing="0">
+	<frame name="left" src="left.php" marginheight="0" marginwidth="0" scrolling="auto" noresize>
+<frameset rows="150,*" frameborder="0" border="0" framespacing="0">
+  	<frame name="top" src="top.php">
 <?php
-//include 'greeklish.php';
-
-echo '<p style="font-family:verdana;font-size:26px;">'.str_replace('-','</br>',$_GET["chat"]).'</p>';
-
-echo '<p align="right"><a href="https://apps.facebook.com/tvchatgr/index.php?chat='.$_GET["chat"].'"i target="_top"><img src="refresh.jpg"></a></p>';
-
-if (empty($_GET["chat"])) {
- echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/" data-width="560" data-num-posts="50"></div>';
-} else {
-  echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/index.php?chat='.$_GET["chat"].'" data-width="560" data-num-posts="50"></div>';
-}
+echo '<frame name="chat" src="chat.php?chat='. $_GET["chat"] .'" marginheight="0" marginwidth="0" scrolling="auto" noresize>';
 ?>
-</body>
+</frameset>
+
+<noframes>
+<img src="retro-tv-icon.jpg"><p>Συζήτηση σχετικά με το τι παρακολουθείτε στην τηλεόραση τώρα!</p>
+</noframes>
+
+</frameset>
 </html>
-
-
