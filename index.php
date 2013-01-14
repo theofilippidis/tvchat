@@ -6,8 +6,8 @@
  <?php
 
    $app_id = "441160562621946";
-  // $app_secret = "79b785ec4ed3530fb0cd9965fa9320e2";
-   $my_url = "http://TVchat.gr/chat.php";
+   $app_secret = "79b785ec4ed3530fb0cd9965fa9320e2";
+   $my_url = "https://apps.facebook.com/tvchatgr//chat.php";
 
    session_start();
 
