@@ -7,7 +7,7 @@
 
    $app_id = "441160562621946";
   // $app_secret = "79b785ec4ed3530fb0cd9965fa9320e2";
-   $my_url = "http://TVchat.gr/chat.php";
+   $my_url = "https://tvchat.herokuapp.com/chat.php";
 
    session_start();
 
@@ -22,8 +22,6 @@
      echo("<script> top.location.href='" . $dialog_url . "'</script>");
    }
 
-
- ?>
 ?>
 </body>
 </html>
