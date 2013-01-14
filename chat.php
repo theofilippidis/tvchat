@@ -3,7 +3,9 @@
 <meta charset="UTF-8">
 </head>
 <body>
-
+    
+<!-- Google Analytics -->    
+    
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -18,6 +20,8 @@
 
 </script>
 
+<!-- Facebook Comments -->
+
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -26,6 +30,8 @@
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=441160562621946";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Google Adesnse -->
 
 <div align=center>
 <script type="text/javascript"><!--
@@ -42,7 +48,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </div>
 
 <?php
-include 'greeklish.php';
+//include 'greeklish.php';
 
 echo '<p style="font-family:verdana;font-size:26px;">'.str_replace('-','</br>',$_GET["chat"]).'</p>';
 
