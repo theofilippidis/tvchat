@@ -32,28 +32,10 @@
 
 // FB Login 
 
-function login() {
-    FB.login(function(response) {
-        if (response.authResponse) {
-            // connected
-        } else {
-            // cancelled
-        }
-    });
-
-FB.getLoginStatus(function(response) {
-    if (response.status === 'connected') {
-        // connected
-    } else if (response.status === 'not_authorized') {
-        // not_authorized
-        login();
-    } else {
-        // not_logged_in
-        login();
-    }
-});
-};
-
+FB.login(function(response) {
+   // handle the response
+ }, {scope: 'email,user_likes'});
+ 
 </script>
 
 
