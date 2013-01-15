@@ -3,7 +3,6 @@
 <meta charset="UTF-8">
 <title>
 <?php
-echo '<p style="font-family:verdana;font-size:26px;">'.str_replace('-','</br>',$_GET["chat"]).'</p>';
 
 if (empty($_GET["chat"])) {
     echo 'TVchat.gr';
