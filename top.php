@@ -1,6 +1,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<title>TVchat.gr</title>
 </head>
 <body>
 <a href="https://apps.facebook.com/tvchatgr/chat.php" target="_top">
