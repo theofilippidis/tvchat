@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>TVchat.gr</title>
+<meta name="google-site-verification" content="D2WpraUfY8F7c89KLUcTCZ9wSojHckAuS-T_Gkznwts" />
 </head>
 <body>    
  <?php
