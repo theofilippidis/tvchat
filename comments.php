@@ -13,6 +13,7 @@ echo 'TVchat.gr : '.$_GET["chat"];
 ?>    
 </title>
 </head>
+<<<<<<< HEAD
 
 <body>
 
@@ -27,6 +28,9 @@ echo 'TVchat.gr : '.$_GET["chat"];
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
     
+=======
+<body>
+>>>>>>> 8c311e50a81620314f7787be241b0b1444072456
     
 <!-- Google Analytics -->    
     
@@ -89,9 +93,12 @@ if (empty($_GET["chat"])) {
   echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat"].'" data-width="560" data-num-posts="50"></div>';
 }
 ?>
+<<<<<<< HEAD
 
 <div class="fb-facepile" data-app-id="441160562621946" data-href="https://apps.facebook.com/tvchatgr/" data-action="Comma separated list of action of action types" data-width="300" data-max-rows="1" data-size="large"></div>
 
+=======
+>>>>>>> 8c311e50a81620314f7787be241b0b1444072456
 </body>
 </html>
 
