@@ -2,6 +2,13 @@
 <head>
 <meta charset="UTF-8">
 <title>TVchat.gr</title>
+<style>
+.center
+{
+margin:auto;
+width:70%;
+}
+</style>
 </head>
 <body>
     
@@ -18,8 +25,8 @@
 <a href="https://apps.facebook.com/tvchatgr/chat.php" target="_top">
 <img src="retro-tv-icon.jpg" alt="TVchat.gr" width="128" height="96">
 <img src="tvchat.png"> 
-</a>v1.05</div>
-<div class="fb-like" data-href="http://TVchat.gr" data-width="450" data-show-faces="true" data-send="true"></div>
+</a> v1.06</div>
+
 <?php
 
 
@@ -52,5 +59,8 @@ setcookie('ACCESS_TOKEN',$params['access_token']);
   // }
 
 ?>    
+<div class="center">
+<div class="fb-like" data-href="http://TVchat.gr" data-width="450" data-show-faces="true" data-send="true"></div>
+</div>
 </body>
 </html>
