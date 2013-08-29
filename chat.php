@@ -11,7 +11,7 @@
 <frameset rows="150,*" frameborder="0" border="0" framespacing="0">
   	<frame name="top" src="top.php">
 <?php
-echo '<frame name="chat" src="comments.php?chat='. $_GET["chat"] .'" marginheight="0" marginwidth="0" scrolling="auto" >';
+echo '<frame cols="500,*"name="chat" src="comments.php?chat='. $_GET["chat"] .'" marginheight="0" marginwidth="0" scrolling="auto" >';
 ?>
 </frameset>
 
