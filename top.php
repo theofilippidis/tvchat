@@ -6,7 +6,7 @@
 .center
 {
 margin:auto;
-width:70%;
+width:60%;
 }
 </style>
 </head>
