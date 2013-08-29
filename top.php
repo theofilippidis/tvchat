@@ -6,10 +6,8 @@
 <body>
 <a href="https://apps.facebook.com/tvchatgr/chat.php" target="_top">
 <img src="retro-tv-icon.jpg" alt="TVchat.gr" width="128" height="96">
-<<<<<<< HEAD
 <img src="tvchat.png"> 
-</a>v1.01
-=======
+</a>v1.02
 <img src="tvchat.png">
 </a>
 <?php
