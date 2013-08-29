@@ -4,12 +4,21 @@
 <title>TVchat.gr</title>
 </head>
 <body>
+    
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=441160562621946";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
 <a href="https://apps.facebook.com/tvchatgr/chat.php" target="_top">
 <img src="retro-tv-icon.jpg" alt="TVchat.gr" width="128" height="96">
 <img src="tvchat.png"> 
-</a>v1.02
-<img src="tvchat.png">
-</a>
+</a>v1.03
+<div class="fb-like" data-href="http://TVchat.gr" data-width="450" data-show-faces="true" data-send="true"></div>
 <?php
 
 
