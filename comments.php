@@ -90,7 +90,7 @@ if (empty($_GET["chat"])) {
 }
 ?>
 
-<div class="fb-facepile" data-app-id="441160562621946" data-href="http://TVchat.gr" data-action="Comma separated list of action of action types" data-width="300" data-max-rows="1" data-size="large"></div>
+<div class="fb-facepile" data-app-id="441160562621946" data-href="https://apps.facebook.com/tvchatgr/" data-action="Comma separated list of action of action types" data-width="300" data-max-rows="1" data-size="large"></div>
 
 </body>
 </html>
