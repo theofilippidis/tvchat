@@ -8,11 +8,10 @@
 <img src="retro-tv-icon.jpg" alt="TVchat.gr" width="128" height="96">
 <<<<<<< HEAD
 <img src="tvchat.png"> 
-</a>v1.0
+</a>v1.01
 =======
 <img src="tvchat.png">
 </a>
->>>>>>> 8c311e50a81620314f7787be241b0b1444072456
 <?php
 
 
