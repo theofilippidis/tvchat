@@ -13,11 +13,12 @@
   js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=441160562621946";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-    
+
+<div style="font-size:8px;">
 <a href="https://apps.facebook.com/tvchatgr/chat.php" target="_top">
 <img src="retro-tv-icon.jpg" alt="TVchat.gr" width="128" height="96">
 <img src="tvchat.png"> 
-</a><div style="font-size:8px;">v1.04</div>
+</a>v1.05</div>
 <div class="fb-like" data-href="http://TVchat.gr" data-width="450" data-show-faces="true" data-send="true"></div>
 <?php
 
