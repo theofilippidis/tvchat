@@ -2,30 +2,16 @@
 <head>
 <meta charset="UTF-8">
 <title>TVchat.gr</title>
-<style>
-.center
-{
-margin:auto;
-width:60%;
-}
-</style>
+
 </head>
 <body>
-    
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=441160562621946";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+
 
 <div style="font-size:8px;">
 <a href="https://apps.facebook.com/tvchatgr/chat.php" target="_top">
 <img src="retro-tv-icon.jpg" alt="TVchat.gr" width="128" height="96">
 <img src="tvchat.png"> 
-</a> v1.06</div>
+</a> v1.07</div>
 
 <?php
 
@@ -59,8 +45,6 @@ setcookie('ACCESS_TOKEN',$params['access_token']);
   // }
 
 ?>    
-<div class="center">
-<div class="fb-like" data-href="http://TVchat.gr" data-width="450" data-show-faces="true" data-send="true"></div>
-</div>
+
 </body>
 </html>

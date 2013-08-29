@@ -12,6 +12,13 @@ echo 'TVchat.gr : '.$_GET["chat"];
     }
 ?>    
 </title>
+<style>
+.center
+{
+margin:auto;
+width:60%;
+}
+</style>
 </head>
 <body>
   
@@ -30,6 +37,8 @@ echo 'TVchat.gr : '.$_GET["chat"];
   })();
 
 </script>
+
+
 
 <!-- Facebook Comments -->
 
@@ -57,7 +66,9 @@ google_ad_height = 60;
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div>
-
+<div class="center">
+<div class="fb-like" data-href="http://TVchat.gr" data-width="450" data-show-faces="true" data-send="true"></div>
+</div>
 <?php
 //include 'greeklish.php';
 
