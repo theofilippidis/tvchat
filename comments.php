@@ -42,7 +42,7 @@ width:70%;
 
 <!-- Facebook Comments -->
 
-<div id="fb-root"></div>
+<div id="fb-root" width="100%"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
