@@ -106,7 +106,16 @@ substr($page, $ch_start, $ch_end - $ch_start)
 
 ?>" target="_top">
 <?php
-echo substr($page, $ch_start, $ch_end - $ch_start);
+switch (substr($page, $ch_start, $ch_end - $ch_start))
+{
+case "Mega":
+    echo '<img src="channels/mega.jpg"<></img>';
+    break;
+case "Μακεδονία TV"
+    echo '<img src="channels/makedonia.jpg"<></img>';
+    break;
+}
+       
 echo ' @ ';
 echo substr($page, $dt_start, $dt_end - $dt_start);
 echo ' <br> ';
