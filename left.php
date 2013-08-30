@@ -97,7 +97,7 @@ $ch_start = strrpos(substr($page,0,$ch_end),'>', $ti_end+1)+1;
 
     
 <table border="0"> 
-tr><td>
+<tr><td>
 <?php
 switch (substr($page, $ch_start, $ch_end - $ch_start))
 {
