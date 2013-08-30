@@ -42,7 +42,7 @@ width:70%;
 
 <!-- Facebook Comments -->
 
-<div id="fb-root" width="100%"></div>
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -82,9 +82,9 @@ echo '<p align="right"><a href="https://apps.facebook.com/tvchatgr/chat.php?chat
     }
     
 if (empty($_GET["chat"])) {
- echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/" data-width="560" data-num-posts="50"></div>';
+ echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/" data-width="100%" data-num-posts="50"></div>';
 } else {
-  echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat"].'" data-width="560" data-num-posts="50"></div>';
+  echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat"].'" data-width="100%" data-num-posts="50"></div>';
 }
 ?>
 
