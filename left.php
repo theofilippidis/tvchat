@@ -5,6 +5,8 @@
 </head>
 
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,greek-ext,greek,latin-ext' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 
 <body>
     
@@ -131,18 +133,22 @@ default:
 ?>
 </td></tr>
 <tr><td>
-<p style="font-family: 'Roboto Condensed', sans-serif;;font-size:13px;">       
+<p style="font-family: 'Orbitron', sans-serif;font-size:18px;">       
 <?php
   //  echo ' @ ';
 echo substr($page, $dt_start, $dt_end - $dt_start);
+?>
+</p>
+<p style="font-family: 'Roboto Condensed', sans-serif;font-size:18px;">   
+<?php
 echo ' <br> ';
 echo substr($page, $ti_start, $ti_end - $ti_start);
 ?>
- 
+</p> 
 </td></tr>
 <tr><td>
-<p style="font-family: 'Roboto Condensed', sans-serif;;font-size:13px;">  
-Chat Now 
+<p style="font-family: 'Fredoka One', cursive;font-size:18px;">  
+
 <a href="https://apps.facebook.com/tvchatgr/chat.php?chat=<?php
 echo 
 date ('Y/m/d').' '.
@@ -152,7 +158,7 @@ substr($page, $ch_start, $ch_end - $ch_start)
 .' - '
 .substr($page, $ti_start, $ti_end - $ti_start);
 
-?>" target="_top"><img src="chat.png" alt="Chat now!" height="16" width="16"></img>
+?>" target="_top"><img src="chat.png" alt="Chat now!" height="16" width="16">Chat Now !</img>
 </a>
 </p> 
 </td></tr>
