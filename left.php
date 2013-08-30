@@ -6,7 +6,7 @@
 <style>
 #channels
 {
-width:100%;
+width:200;
 border-collapse:collapse;
 }
 #channels td, #channels th 
