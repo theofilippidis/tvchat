@@ -108,7 +108,7 @@ case "Μακεδονία TV":
     echo '<img src="channels/makedonia.jpg"<></img>';
     break;
 default:
-    echo substr($page, $ch_start, $ch_end - $ch_start)
+    echo substr($page, $ch_start, $ch_end - $ch_start);
 }
 ?>
 </td></tr>
@@ -132,7 +132,7 @@ substr($page, $ch_start, $ch_end - $ch_start)
 .' - '
 .substr($page, $ti_start, $ti_end - $ti_start);
 
-?>" target="_top"><img src="chat.png"></img>
+?>" target="_top"><img src="chat.png" alt="Chat now!" height="42" width="42"></img>
 </a>
 </td></tr>
 </table>
