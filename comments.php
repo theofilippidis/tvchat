@@ -65,8 +65,8 @@ google_ad_height = 60;
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
-</br>
-
+</div>
+<div class="center">
 <div class="fb-like" data-href="http://TVchat.gr" data-width="450" data-show-faces="true" data-send="true"></div>
 
 <?php
