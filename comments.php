@@ -75,16 +75,16 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 echo '<p style="font-family:verdana;font-size:26px;">'.str_replace('-','</br>',$_GET["chat"]).'</p>';
 
 if (empty($_GET["chat"])) {
-    echo '<p align="right"><a href="https://apps.facebook.com/tvchatgr/chat.php" target="_top"><img src="refresh.jpg"></a></p>';
+    echo '<p><a href="https://apps.facebook.com/tvchatgr/chat.php" target="_top"><img src="refresh.jpg"></a></p>';
     } else {
 
-echo '<p align="right"><a href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat"].'" target="_top"><img src="refresh.jpg"></a></p>';
+echo '<p><a href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat"].'" target="_top"><img src="refresh.jpg"></a></p>';
     }
     
 if (empty($_GET["chat"])) {
- echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/" data-width="700" data-num-posts="50"></div>';
+ echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/" data-width="800" data-num-posts="50"></div>';
 } else {
-  echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat"].'" data-width="700" data-num-posts="50"></div>';
+  echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat"].'" data-width="800" data-num-posts="50"></div>';
 }
 ?>
 
