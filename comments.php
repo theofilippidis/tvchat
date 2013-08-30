@@ -68,7 +68,7 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </div>
 <div class="center">
 <div class="fb-like" data-href="http://TVchat.gr" data-width="450" data-show-faces="true" data-send="true"></div>
-</div>
+
 <?php
 //include 'greeklish.php';
 
@@ -88,7 +88,7 @@ if (empty($_GET["chat"])) {
 }
 ?>
 
-
+</div>
 
 </body>
 </html>
