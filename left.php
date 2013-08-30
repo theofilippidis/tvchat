@@ -102,7 +102,15 @@ $ch_start = strrpos(substr($page,0,$ch_end),'>', $ti_end+1)+1;
 
     
 <table border="0"> 
-<tr><td>
+<tr>
+<td>
+<p style="font-family: 'Orbitron', sans-serif;font-size:18px;">       
+<?php
+  //  echo ' @ ';
+echo substr($page, $dt_start, $dt_end - $dt_start);
+?>
+</td>
+<td>
 <?php
 switch (substr($page, $ch_start, $ch_end - $ch_start))
 {
@@ -132,13 +140,7 @@ default:
 }
 ?>
 </td>
-<td>
-<p style="font-family: 'Orbitron', sans-serif;font-size:18px;">       
-<?php
-  //  echo ' @ ';
-echo substr($page, $dt_start, $dt_end - $dt_start);
-?>
-</td></tr>
+</tr>
 <tr><td colspan="2">
 </p>
 <p style="font-family: 'Roboto Condensed', sans-serif;font-size:18px;">   
