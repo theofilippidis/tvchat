@@ -130,7 +130,7 @@ default:
 <tr><td>
 <p style="font-family:verdana;font-size:13px;">       
 <?php
-    echo ' @ ';
+  //  echo ' @ ';
 echo substr($page, $dt_start, $dt_end - $dt_start);
 echo ' <br> ';
 echo substr($page, $ti_start, $ti_end - $ti_start);
