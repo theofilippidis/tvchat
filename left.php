@@ -138,6 +138,7 @@ echo substr($page, $ti_start, $ti_end - $ti_start);
 </p>  
 </td></tr>
 <tr><td>
+Chat Now 
 <a href="https://apps.facebook.com/tvchatgr/chat.php?chat=<?php
 echo 
 date ('Y/m/d').' '.
@@ -147,7 +148,7 @@ substr($page, $ch_start, $ch_end - $ch_start)
 .' - '
 .substr($page, $ti_start, $ti_end - $ti_start);
 
-?>" target="_top"><img src="chat.png" alt="Chat now!" height="16" width="16">Chat Now!</img>
+?>" target="_top"><img src="chat.png" alt="Chat now!" height="16" width="16"></img>
 </a>
 </td></tr>
 </table>
