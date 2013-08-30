@@ -17,7 +17,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
     
 <p align=center>
-<img src="on-air.jpeg">
+<img src="remote-control.jpg">
 </p>
 
 <?php
