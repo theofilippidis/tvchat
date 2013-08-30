@@ -3,7 +3,33 @@
 <meta charset="UTF-8">
 <meta http-equiv="refresh" content="300" >
 </head>
-
+<style>
+#channels
+{
+width:100%;
+border-collapse:collapse;
+}
+#channels td, #channels th 
+{
+font-size:1em;
+border:1px solid #98bf21;
+padding:3px 7px 2px 7px;
+}
+#channels th 
+{
+font-size:1.1em;
+text-align:left;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#A7C942;
+color:#ffffff;
+}
+#channels tr.alt td 
+{
+color:#000000;
+background-color:#EAF2D3;
+}
+</style>
 <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,greek-ext,greek,latin-ext' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
@@ -101,15 +127,15 @@ $ch_start = strrpos(substr($page,0,$ch_end),'>', $ti_end+1)+1;
 
 
     
-<table border="0"> 
+<table id="channels"> 
 <tr>
-<td>
+<th>
 <p style="font-family: 'Orbitron', sans-serif;font-size:18px;">       
 <?php
   //  echo ' @ ';
 echo substr($page, $dt_start, $dt_end - $dt_start);
 ?>
-</td></tr>
+</th></tr>
 <tr>
 <td>
 <?php
@@ -150,7 +176,7 @@ echo substr($page, $ti_start, $ti_end - $ti_start);
 ?>
 </p> 
 </td></tr>
-<tr><td >
+<tr  class="alt"><td >
 <p style="font-family: 'Fredoka One', cursive;font-size:18px;">  
 
 <a href="https://apps.facebook.com/tvchatgr/chat.php?chat=<?php
