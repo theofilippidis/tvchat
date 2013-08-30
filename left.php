@@ -17,7 +17,7 @@
 }(document, 'script', 'facebook-jssdk'));</script>
     
 <p align=center>
-<img src="remote-control.jpg">
+<img src="remote-control.jpg" width="200">
 </p>
 
 <?php
@@ -132,7 +132,7 @@ substr($page, $ch_start, $ch_end - $ch_start)
 .' - '
 .substr($page, $ti_start, $ti_end - $ti_start);
 
-?>" target="_top"><img src="chat.png" alt="Chat now!" height="42" width="42"></img>
+?>" target="_top"><img src="chat.png" alt="Chat now!" height="16" width="16">Chat Now!</img>
 </a>
 </td></tr>
 </table>
