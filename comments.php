@@ -17,12 +17,11 @@ echo 'TVchat.gr : '.$_GET["chat"];
 {
 margin:auto;
 width:90%;
-align:center;
 }
 </style>
 </head>
 <body>
-  
+<div class="center">  
 <!-- Google Analytics -->    
     
 <script type="text/javascript">
@@ -43,7 +42,7 @@ align:center;
 
 <!-- Facebook Comments -->
 
-<div class="center" id="fb-root"></div>
+<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -54,7 +53,7 @@ align:center;
 
 <!-- Google Adesnse -->
 
-<div class="center">
+
 <script type="text/javascript"><!--
 google_ad_client = "ca-pub-0132583951198869";
 /* TVchat.gr */
@@ -66,13 +65,13 @@ google_ad_height = 60;
 <script type="text/javascript"
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
-</div>
 
-<div class="center">
+
+
 <div class="fb-like" data-href="http://TVchat.gr" data-width="450" data-show-faces="true" data-send="true"></div>
-</div>
 
-<div class="center">
+
+
 <?php
 //include 'greeklish.php';
 
