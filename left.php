@@ -176,7 +176,7 @@ echo substr($page, $ti_start, $ti_end - $ti_start);
 ?>
 </p> 
 </td></tr>
-<tr  class="alt"><td align="right">
+<tr  class="alt"><td align="center">
 <p style="font-family: 'Fredoka One', cursive;font-size:18px;">  
 
 <a href="https://apps.facebook.com/tvchatgr/chat.php?chat=<?php
