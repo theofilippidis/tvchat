@@ -17,6 +17,7 @@ echo 'TVchat.gr : '.$_GET["chat"];
 {
 margin:auto;
 width:90%;
+align:center;
 }
 </style>
 </head>
