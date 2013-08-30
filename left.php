@@ -107,6 +107,8 @@ case "Mega":
 case "Μακεδονία TV":
     echo '<img src="channels/makedonia.jpg"<></img>';
     break;
+default:
+    echo substr($page, $ch_start, $ch_end - $ch_start)
 }
 ?>
 </td></tr>
