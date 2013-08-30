@@ -7,14 +7,14 @@
 <body>
 
 <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
-
+<link href='http://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 
 <a href="https://apps.facebook.com/tvchatgr/chat.php" target="_top">
 <img src="retro-tv-icon.jpg" alt="TVchat.gr" width="128" height="96">
 <!-- <img src="tvchat.png"> -->
 </a> 
-<div style="font-family: 'Fredoka One', cursive;">TVchat.gr</div>
-<div style="font-size:8px;">
+<div style="font-family: 'Fredoka One', cursive;font-size:xx-large;">TVchat.gr</div>
+<div style="font-size:xx-small;font-family: 'Orbitron', sans-serif;">
 v1.08</div>
 
 <?php
