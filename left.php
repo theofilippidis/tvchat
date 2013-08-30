@@ -109,7 +109,8 @@ $ch_start = strrpos(substr($page,0,$ch_end),'>', $ti_end+1)+1;
   //  echo ' @ ';
 echo substr($page, $dt_start, $dt_end - $dt_start);
 ?>
-</td>
+</td></tr>
+<tr>
 <td>
 <?php
 switch (substr($page, $ch_start, $ch_end - $ch_start))
@@ -141,7 +142,7 @@ default:
 ?>
 </td>
 </tr>
-<tr><td colspan="2">
+<tr><td>
 </p>
 <p style="font-family: 'Roboto Condensed', sans-serif;font-size:18px;">   
 <?php
@@ -149,7 +150,7 @@ echo substr($page, $ti_start, $ti_end - $ti_start);
 ?>
 </p> 
 </td></tr>
-<tr><td colspan="2">
+<tr><td >
 <p style="font-family: 'Fredoka One', cursive;font-size:18px;">  
 
 <a href="https://apps.facebook.com/tvchatgr/chat.php?chat=<?php
