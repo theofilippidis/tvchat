@@ -47,7 +47,7 @@ background-color:#EAF2D3;
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
     
-<p align=center>
+<p align=left>
 <img src="remote-control.jpg" width="200">
 </p>
 
