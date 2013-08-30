@@ -104,6 +104,21 @@ switch (substr($page, $ch_start, $ch_end - $ch_start))
 case "Mega":
     echo '<img src="channels/mega.jpg"<></img>';
     break;
+case "Ant1":
+    echo '<img src="channels/ant1.jpg"<></img>';
+    break;
+case "Alpha":
+    echo '<img src="channels/alpha.jpg"<></img>';
+    break;
+case "Star":
+    echo '<img src="channels/star.jpg"<></img>';
+    break;
+case "ΣΚΑΪ":
+    echo '<img src="channels/skai.jpg"<></img>';
+    break;
+case "Κανάλι της Βουλής":
+    echo '<img src="channels/vouli.jpg.png"<></img>';
+    break;
 case "Μακεδονία TV":
     echo '<img src="channels/makedonia.jpg"<></img>';
     break;
