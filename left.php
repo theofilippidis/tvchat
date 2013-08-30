@@ -3,6 +3,9 @@
 <meta charset="UTF-8">
 <meta http-equiv="refresh" content="300" >
 </head>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,greek-ext,greek,latin-ext' rel='stylesheet' type='text/css'>
+
 <body>
     
     <!-- Facebook Face Pile -->      
@@ -128,7 +131,7 @@ default:
 ?>
 </td></tr>
 <tr><td>
-<p style="font-family:verdana;font-size:13px;">       
+<p style="font-family: 'Roboto Condensed', sans-serif;;font-size:13px;">       
 <?php
   //  echo ' @ ';
 echo substr($page, $dt_start, $dt_end - $dt_start);
