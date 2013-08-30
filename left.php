@@ -159,7 +159,7 @@ substr($page, $ch_start, $ch_end - $ch_start)
 .' - '
 .substr($page, $ti_start, $ti_end - $ti_start);
 
-?>" target="_top"><img src="chat.png" alt="Chat now!" height="18" width="18"> Chat Now</img>
+?>" target="_top">Chat Now <img src="chat.png" alt="Chat now!" height="18" width="18"></img>
 </a>
 </p> 
 </td></tr>
