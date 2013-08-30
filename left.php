@@ -131,13 +131,15 @@ default:
     echo substr($page, $ch_start, $ch_end - $ch_start);
 }
 ?>
-</td></tr>
-<tr><td>
+</td>
+<td>
 <p style="font-family: 'Orbitron', sans-serif;font-size:18px;">       
 <?php
   //  echo ' @ ';
 echo substr($page, $dt_start, $dt_end - $dt_start);
 ?>
+</td></tr>
+<tr><td colspan="2">
 </p>
 <p style="font-family: 'Roboto Condensed', sans-serif;font-size:18px;">   
 <?php
@@ -145,7 +147,7 @@ echo substr($page, $ti_start, $ti_end - $ti_start);
 ?>
 </p> 
 </td></tr>
-<tr><td>
+<tr><td colspan="2">
 <p style="font-family: 'Fredoka One', cursive;font-size:18px;">  
 
 <a href="https://apps.facebook.com/tvchatgr/chat.php?chat=<?php
