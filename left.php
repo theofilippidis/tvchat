@@ -108,10 +108,12 @@ case "Μακεδονία TV":
     echo '<img src="channels/makedonia.jpg"<></img>';
     break;
 }
+?>
 </td></tr>
 <tr><td>
 <p style="font-family:verdana;font-size:13px;">       
-echo ' @ ';
+<?php
+    echo ' @ ';
 echo substr($page, $dt_start, $dt_end - $dt_start);
 echo ' <br> ';
 echo substr($page, $ti_start, $ti_end - $ti_start);
@@ -120,7 +122,6 @@ echo substr($page, $ti_start, $ti_end - $ti_start);
 </td></tr>
 <tr><td>
 <a href="https://apps.facebook.com/tvchatgr/chat.php?chat=<?php
-
 echo 
 date ('Y/m/d').' '.
 substr($page, $ch_start, $ch_end - $ch_start)
