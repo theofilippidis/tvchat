@@ -141,7 +141,6 @@ echo substr($page, $dt_start, $dt_end - $dt_start);
 </p>
 <p style="font-family: 'Roboto Condensed', sans-serif;font-size:18px;">   
 <?php
-echo ' <br> ';
 echo substr($page, $ti_start, $ti_end - $ti_start);
 ?>
 </p> 
