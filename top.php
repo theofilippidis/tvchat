@@ -18,7 +18,7 @@
 </a> 
 </td>
 <td>
-<div style="font-family: 'Fredoka One', cursive;font-size:400%;color:#FF8C00;">TVchat.gr</div>
+<div style="font-family: 'Fredoka One', cursive;font-size:400%;color:#E68A00;">TVchat.gr</div>
 </td>
 <td>
 <div style="font-size:xx-small;font-family: 'Orbitron', sans-serif;">v1.08</div>
