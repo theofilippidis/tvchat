@@ -137,7 +137,7 @@ echo substr($page, $dt_start, $dt_end - $dt_start);
 ?>
 </th></tr>
 <tr>
-<td>
+<td align="center">
 <?php
 switch (substr($page, $ch_start, $ch_end - $ch_start))
 {
@@ -168,7 +168,7 @@ default:
 ?>
 </td>
 </tr>
-<tr><td>
+<tr><td align="center">
 </p>
 <p style="font-family: 'Roboto Condensed', sans-serif;font-size:18px;">   
 <?php
