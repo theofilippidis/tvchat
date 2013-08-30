@@ -93,18 +93,11 @@ $ch_end = strposnth($page,'</td>',$offset+2);
 $ch_start = strrpos(substr($page,0,$ch_end),'>', $ti_end+1)+1;
 ?>
 
-<p style="font-family:verdana;font-size:13px;">
-<a href="https://apps.facebook.com/tvchatgr/chat.php?chat=<?php
 
-echo 
-date ('Y/m/d').' '.
-substr($page, $ch_start, $ch_end - $ch_start)
-.'@'
-.str_replace(':',':',substr($page, $dt_start, $dt_end - $dt_start))
-.' - '
-.substr($page, $ti_start, $ti_end - $ti_start);
 
-?>" target="_top">
+    
+<table border="0"> 
+tr><td>
 <?php
 switch (substr($page, $ch_start, $ch_end - $ch_start))
 {
@@ -115,15 +108,31 @@ case "Μακεδονία TV":
     echo '<img src="channels/makedonia.jpg"<></img>';
     break;
 }
-       
+</td></tr>
+<tr><td>
+<p style="font-family:verdana;font-size:13px;">       
 echo ' @ ';
 echo substr($page, $dt_start, $dt_end - $dt_start);
 echo ' <br> ';
 echo substr($page, $ti_start, $ti_end - $ti_start);
 ?>
+</p>  
+</td></tr>
+<tr><td>
+<a href="https://apps.facebook.com/tvchatgr/chat.php?chat=<?php
 
+echo 
+date ('Y/m/d').' '.
+substr($page, $ch_start, $ch_end - $ch_start)
+.'@'
+.str_replace(':',':',substr($page, $dt_start, $dt_end - $dt_start))
+.' - '
+.substr($page, $ti_start, $ti_end - $ti_start);
+
+?>" target="_top"><img src="chat.png"></img>
 </a>
-</p>
+</td></tr>
+</table>
 
 <?php 
 $offset = $offset +5;
