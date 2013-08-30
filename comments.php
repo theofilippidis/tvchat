@@ -16,7 +16,7 @@ echo 'TVchat.gr : '.$_GET["chat"];
 .center
 {
 margin:auto;
-width:70%;
+width:90%;
 }
 </style>
 </head>
@@ -42,7 +42,7 @@ width:70%;
 
 <!-- Facebook Comments -->
 
-<div id="fb-root"></div>
+<div class="center" id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -66,9 +66,12 @@ google_ad_height = 60;
 src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
 </script>
 </div>
+
 <div class="center">
 <div class="fb-like" data-href="http://TVchat.gr" data-width="450" data-show-faces="true" data-send="true"></div>
+</div>
 
+<div class="center">
 <?php
 //include 'greeklish.php';
 
@@ -87,7 +90,6 @@ if (empty($_GET["chat"])) {
   echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat"].'" data-width="800" data-num-posts="50"></div>';
 }
 ?>
-
 </div>
 
 </body>
