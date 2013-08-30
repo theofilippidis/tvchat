@@ -6,14 +6,14 @@
 </head>
 <body>
 
-<link href='http://fonts.googleapis.com/css?family=Chango' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Kavoon' rel='stylesheet' type='text/css'>
 
 
 <a href="https://apps.facebook.com/tvchatgr/chat.php" target="_top">
 <img src="retro-tv-icon.jpg" alt="TVchat.gr" width="128" height="96">
 <!-- <img src="tvchat.png"> -->
 </a> 
-<div style="font-family: 'Chango', cursive;">TVchat.gr</div>
+<div style="font-family: 'Kavoon', cursive;font-size:x-large;">TVchat.gr</div>
 <div style="font-size:8px;">
 v1.08</div>
 
