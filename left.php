@@ -111,7 +111,7 @@ switch (substr($page, $ch_start, $ch_end - $ch_start))
 case "Mega":
     echo '<img src="channels/mega.jpg"<></img>';
     break;
-case "Μακεδονία TV"
+case "Μακεδονία TV":
     echo '<img src="channels/makedonia.jpg"<></img>';
     break;
 }
