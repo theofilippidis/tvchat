@@ -85,9 +85,9 @@ echo '<p><a href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat
     }
     
 if (empty($_GET["chat"])) {
- echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/" data-width="800" data-num-posts="50"></div>';
+ echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/" data-width="400" data-num-posts="50"></div>';
 } else {
-  echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat"].'" data-width="800" data-num-posts="50"></div>';
+  echo '<div class="fb-comments" data-href="https://apps.facebook.com/tvchatgr/chat.php?chat='.$_GET["chat"].'" data-width="400" data-num-posts="50"></div>';
 }
 ?>
 </div>
