@@ -16,7 +16,15 @@ echo '<frame name="chat" src="comments.php?chat='. $_GET["chat"] .'" marginheigh
 </frameset>
 
 <noframes>
-<img src="retro-tv-icon.jpg"><p>Συζήτηση σχετικά με το τι παρακολουθείτε στην τηλεόραση τώρα!</p>
+<img src="retro-tv-icon.jpg"><p>
+<?php
+if (empty($_GET["chat"])) {
+    echo "Συζήτηση σχετικά με το τι παρακολουθείτε στην τηλεόραση τώρα!";
+} else {
+    echo $_GET["chat"];
+}    
+?>    
+</p>
 </noframes>
 
 </frameset>
